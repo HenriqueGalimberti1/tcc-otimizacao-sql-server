@@ -177,12 +177,12 @@ Para reproduzir os testes com integridade metodológica, execute as etapas no SS
 
 ```bibtex
 @monography{alcantara2026guia,
-  author    = {Daniel Padovani Alc{\^a}ntara and Henrique Galimberti Abreu dos Santos and Leticia Cassoli Dias Siqueira},
-  title     = {Guia pr{\'a}tico de otimiza{\c{c}}{\~a}o de banco de dados relacionais},
-  school    = {Centro Universit{\'a}rio Multivix Vit{\'o}ria},
+  author    = {Daniel Padovani Alcântara and Henrique Galimberti Abreu dos Santos and Leticia Cassoli Dias Siqueira},
+  title     = {Guia prático de otimização de banco de dados relacionais},
+  school    = {Centro Universitário Multivix Vitória},
   year      = {2026},
-  type      = {Trabalho de Conclus{\~a}o de Curso (Gradua{\c{c}}{\~a}o em Engenharia da Computa{\c{c}}{\~a}o)},
-  address   = {Vit{\'o}ria, ES},
+  type      = {Trabalho de Conclusão de Curso (Graduação em Engenharia da Computação)},
+  address   = {Vitória, ES},
   url       = {https://github.com/HenriqueGalimberti1/tcc-otimizacao-sql-server}
 }
 ```
