@@ -12,7 +12,7 @@ Repositório com os scripts SQL, instrumentação experimental, medições bruta
 
 ---
 
-## 📌 Visão Geral do Projeto
+## Visão Geral do Projeto
 
 Este estudo analisa empiricamente o impacto de estratégias de **indexação física** (índices simples, compostos e de cobertura) e de **reescrita lógica de consultas SQL** sobre o desempenho do Microsoft SQL Server 2025. 
 
@@ -25,7 +25,7 @@ Ao todo, foram executados **8 experimentos controlados (Q01 a Q08)** contempland
 
 ---
 
-## 🗄️ Modelagem e Dataset (`LojaDB_desempenho`)
+## Modelagem e Dataset (`LojaDB_desempenho`)
 
 O ambiente experimental adota um modelo relacional normalizado composto por 9 entidades principais, simulando as operações de um comércio eletrônico:
 
@@ -43,7 +43,7 @@ O ambiente experimental adota um modelo relacional normalizado composto por 9 en
 
 ---
 
-## 🖥️ Especificações do Ambiente Experimental
+## Especificações do Ambiente Experimental
 
 * **Processador:** Intel Core i7-14700K
 * **Memória RAM:** 32 GB DDR5
@@ -54,7 +54,7 @@ O ambiente experimental adota um modelo relacional normalizado composto por 9 en
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 tcc-otimizacao-sql-server/
@@ -94,7 +94,7 @@ tcc-otimizacao-sql-server/
 
 ---
 
-## 🚀 Guia de Reprodução Passo a Passo
+## Guia de Reprodução Passo a Passo
 
 Para reproduzir os testes com integridade metodológica, execute as etapas no SSMS conectado a uma instância local do SQL Server:
 
@@ -110,7 +110,7 @@ Para reproduzir os testes com integridade metodológica, execute as etapas no SS
 
 ---
 
-## 📊 Matriz de Experimentos
+## Matriz de Experimentos
 
 | Consulta | Tabela(s) | Cenários | Foco do Experimento |
 | :---: | :--- | :---: | :--- |
@@ -125,7 +125,7 @@ Para reproduzir os testes com integridade metodológica, execute as etapas no SS
 
 ---
 
-## 📈 Resumo dos Resultados
+## Resumo dos Resultados
 
 ### Leituras Lógicas Médias por Cenário
 
@@ -165,7 +165,7 @@ Para reproduzir os testes com integridade metodológica, execute as etapas no SS
 
 ---
 
-## 🔍 Conclusões Técnicas Centrais
+## Conclusões Técnicas Centrais
 
 1. **Eficiência de Índices de Cobertura (`INCLUDE`):** A eliminação de saltos à tabela principal (*Key Lookups*) reduziu as leituras lógicas em mais de 98% a 99% em consultas seletivas e de junção (Q02, Q03 e Q08).
 2. **Predicados SARGable:** A substituição de chamadas de funções escalares (`YEAR(data_venda) = 2025`) por intervalos indexáveis explícitos reduziu o tempo de execução em **77,45%** e o consumo de CPU em **76,8%** (Q06) com a mesma estrutura de dados.
@@ -173,7 +173,7 @@ Para reproduzir os testes com integridade metodológica, execute as etapas no SS
 
 ---
 
-## 📜 Como Citar
+## Como Citar
 
 ```bibtex
 @monography{2026guia,
