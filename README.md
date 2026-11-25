@@ -189,6 +189,6 @@ Para reproduzir os testes com integridade metodológica, execute as etapas no SS
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto é disponibilizado sob os termos da licença [MIT](LICENSE).
