@@ -176,7 +176,7 @@ Para reproduzir os testes com integridade metodológica, execute as etapas no SS
 ## 📜 Como Citar
 
 ```bibtex
-@monography{alcantara2026guia,
+@monography{2026guia,
   author    = {Daniel Padovani Alcântara and Henrique Galimberti Abreu dos Santos and Leticia Cassoli Dias Siqueira},
   title     = {Guia prático de otimização de banco de dados relacionais},
   school    = {Centro Universitário Multivix Vitória},
